@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A growing collection of AI-assisted videos across education and visual communication." />
+    <title>AI Video Studio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__inner">
+        <p class="eyebrow">AI-assisted visual creation</p>
+        <h1>AI Video Studio</h1>
+        <p class="hero__text">
+          A growing collection of short AI-assisted videos created for
+          education, storytelling and visual communication.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="gallery" aria-labelledby="gallery-title">
+        <div class="section-heading">
+          <p class="eyebrow">Video gallery</p>
+          <h2 id="gallery-title">Educational Videos</h2>
+        </div>
+
+        <article class="video-card">
+          <div class="video-frame">
+            <video
+              controls
+              playsinline
+              preload="metadata"
+              poster="images/educational/day-and-night-thumbnail.jpg"
+              aria-label="Why do we have day and night educational video"
+            >
+              <source src="videos/educational/day-and-night.mp4" type="video/mp4" />
+              Your browser does not support HTML video.
+            </video>
+          </div>
+
+          <div class="video-info">
+            <span class="subject">Science</span>
+            <h3>Why Do We Have Day and Night?</h3>
+            <p>
+              A concise visual explanation of Earth's rotation and how it
+              creates day and night.
+            </p>
+
+            <dl class="details">
+              <div><dt>Audience</dt><dd>School students</dd></div>
+              <div><dt>Duration</dt><dd>10 seconds</dd></div>
+              <div><dt>Format</dt><dd>Vertical video</dd></div>
+              <div><dt>Tools</dt><dd>ChatGPT and Canva</dd></div>
+            </dl>
+          </div>
+        </article>
+      </section>
+
+      <section class="process" aria-labelledby="process-title">
+        <div class="section-heading">
+          <p class="eyebrow">Creation process</p>
+          <h2 id="process-title">From concept to classroom-ready video</h2>
+        </div>
+
+        <ol class="steps">
+          <li><span>01</span><strong>Plan</strong><p>Select an age-appropriate school concept.</p></li>
+          <li><span>02</span><strong>Write</strong><p>Create and fact-check a concise educational script.</p></li>
+          <li><span>03</span><strong>Visualize</strong><p>Prepare relevant visuals for every part of the explanation.</p></li>
+          <li><span>04</span><strong>Produce</strong><p>Add AI narration, synchronized captions and mobile-friendly editing.</p></li>
+        </ol>
+      </section>
+
+      <section class="note" aria-label="Project disclosure">
+        <h2>Project note</h2>
+        <p>
+          This is an AI-assisted video-creation experiment. The concept,
+          factual review, visual sequence, caption correction and final editing
+          were completed with human oversight.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>AI Video Studio · Ideas brought to life through short visual stories</p>
+    </footer>
+  </body>
+</html>
