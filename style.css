@@ -48,6 +48,12 @@ section + section { margin-top: clamp(4rem, 10vw, 7rem); }
 
 .video-frame { max-width: 380px; margin-inline: auto; overflow: hidden; border-radius: 20px; background: #000; aspect-ratio: 9 / 16; }
 .video-frame video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.video-card + .video-card { margin-top: 2rem; }
+.video-card--landscape { grid-template-columns: 1fr; }
+.video-frame--landscape { width: 100%; max-width: none; aspect-ratio: 16 / 9; }
+.video-frame--landscape video { object-fit: contain; }
+.audio-credit { font-size: 0.8rem; }
+.audio-credit a { color: var(--blue); }
 .video-info { align-self: center; }
 .subject { display: inline-block; padding: 0.35rem 0.75rem; border-radius: 999px; background: rgba(92, 188, 255, 0.12); color: var(--blue); font-size: 0.82rem; font-weight: 800; text-transform: uppercase; }
 .video-info h3 { margin: 1rem 0 0.75rem; font-size: clamp(1.8rem, 4vw, 3rem); line-height: 1.12; }
@@ -72,6 +78,7 @@ footer { border-top: 1px solid var(--line); color: var(--muted); text-align: cen
 @media (max-width: 760px) {
   .video-card { grid-template-columns: 1fr; }
   .video-frame { width: min(100%, 330px); }
+  .video-frame--landscape { width: 100%; }
   .details { grid-template-columns: 1fr 1fr; }
   .steps { grid-template-columns: 1fr 1fr; }
 }

@@ -15,6 +15,23 @@ The first available gallery is **Educational Videos**. Its first sample explains
 
 ## Educational Videos
 
+### Sound Detective: Short A
+
+- **Subject:** English phonics
+- **Audience:** Young Tamil-speaking learners
+- **Duration:** Approximately 20 seconds
+- **Format:** Landscape, 16:9, 1080p
+- **Learning point:** Connect lowercase a and the short /æ/ sound to apple.
+- **Audio credits:** /æ/ by Denelson83 and apple by Dvortygirl, Wikimedia Commons, CC BY-SA 3.0. Audio arranged and repeated.
+
+## Upload this update
+
+Replace index.html and style.css in your existing ai-videos repository.
+Upload videos/educational/sound-detective-short-a.mp4 and
+images/educational/sound-detective-short-a-thumbnail.jpg at those exact paths.
+Keep the existing day-and-night assets. Extract the update ZIP before uploading;
+GitHub Pages cannot serve the website from inside a ZIP archive.
+
 ### Why Do We Have Day and Night?
 
 - **Subject:** Science
