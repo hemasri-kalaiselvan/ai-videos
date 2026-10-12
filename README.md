@@ -3,8 +3,8 @@
 > A growing collection of AI-assisted videos across education, storytelling and visual communication.
 
 **Tech:** HTML, CSS, HTML5 Video
-**Tools:** GitHub Pages, Canva
-**AI Tools:** ChatGPT, Canva AI Voice
+**Tools:** GitHub Pages, Canva, Wikimedia Commons
+**AI Tools:** ChatGPT, TTSMaker, Canva AI Voice
 **Live:** https://hemasri-kalaiselvan.github.io/ai-videos/
 
 ## About
@@ -22,7 +22,11 @@ The first available gallery is **Educational Videos**. Its first sample explains
 - **Duration:** Approximately 20 seconds
 - **Format:** Landscape, 16:9, 1080p
 - **Learning point:** Connect lowercase a and the short /æ/ sound to apple.
+- **Tamil narration:** Generated using TTSMaker.
+- **Visuals and editing:** AI-generated character scenes created with ChatGPT; text, animation and audio timing arranged in Canva.
 - **Audio credits:** /æ/ by Denelson83 and apple by Dvortygirl, Wikimedia Commons, CC BY-SA 3.0. Audio arranged and repeated.
+
+TTSMaker was used for spoken Tamil instructions, not the isolated /æ/ sound or the word apple. Those English pronunciation recordings came from Wikimedia Commons.
 
 ## Upload this update
 
@@ -50,7 +54,7 @@ GitHub Pages cannot serve the website from inside a ZIP archive.
 2. Prepared a concise and age-appropriate script.
 3. Checked the explanation for scientific accuracy.
 4. Created and arranged three supporting visuals.
-5. Added AI-generated narration.
+5. Added narration using Canva AI Voice for the science video and TTSMaker for the phonics video's Tamil instructions. Used human pronunciation recordings from Wikimedia Commons for /æ/ and apple.
 6. Synchronized captions with the narration and visuals.
 7. Reviewed the exported video for readability, timing and mobile display.
 
@@ -71,10 +75,12 @@ ai-videos/
 ├── README.md
 ├── videos/
 │   └── educational/
-│       └── day-and-night.mp4
+│       ├── day-and-night.mp4
+│       └── sound-detective-short-a.mp4
 └── images/
     └── educational/
-        └── day-and-night-thumbnail.jpg
+        ├── day-and-night-thumbnail.jpg
+        └── sound-detective-short-a-thumbnail.jpg
 ```
 
 ## Run Locally
